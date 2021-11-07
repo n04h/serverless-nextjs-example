@@ -1,2 +1,9 @@
 myNextApplication:
   component: "./node_modules/@sls-next/serverless-component"
+  inputs:
+    bucketName: serverless-nextjs-example-bucket
+    bucketRegion: ap-northeast-1
+    name:
+      defaultLambda: serverless-nextjs-example-default-lambda
+      apiLambda: serverless-nextjs-example-api-lambda
+      imageLambda: serverless-nextjs-example-image-lambda
