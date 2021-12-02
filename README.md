@@ -1,11 +1,22 @@
 # serverless-nextjs-example
 
+## 環境構築
+
+```shell
+npm install
+```
+
+## Next.jsのサーバー起動
+
+```shell
+npm run dev
+```
+
 ## デプロイ
 
 `~/.aws/credentials`に資格情報を設定していることが前提条件
 
 ```shell
-npm install
 npx serverless
 ```
 
